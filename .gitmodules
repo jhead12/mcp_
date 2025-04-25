@@ -1,3 +1,5 @@
 [submodule "python"]
 	path = python
 	url = https://github.com/jhead12/python-sdk
+[submodule "python-sdk"]
+	path = python-sdk
