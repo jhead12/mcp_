@@ -8,6 +8,8 @@ authors = [{ name = "Anthropic, PBC." }]
 maintainers = [
     { name = "David Soria Parra", email = "davidsp@anthropic.com" },
     { name = "Justin Spahr-Summers", email = "justin@anthropic.com" },
+    { name = "Joshua Head", email = "josh@jeldonmusic.com" },
+
 ]
 keywords = ["git", "mcp", "llm", "automation"]
 license = { text = "MIT" }
@@ -30,6 +32,7 @@ dependencies = [
     "sse-starlette>=1.6.1",
     "pydantic-settings>=2.5.2",
     "uvicorn>=0.23.1",
+    "typer>=0.12.4",
 ]
 
 [project.optional-dependencies]
@@ -53,6 +56,7 @@ dev = [
     "pytest-flakefinder>=1.1.0",
     "pytest-xdist>=3.6.1",
     "pytest-examples>=0.0.14",
+    "mcp[cli]",
 ]
 docs = [
     "mkdocs>=1.6.1",
